@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2-5 캐럿을 이용하는 메모장 만들기(insert 모드)", "2-5 캐럿을 이용하는 메모장 만들기(insert 모드).vcxproj", "{3921A801-1C45-4ADF-A896-30C3F36908FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3921A801-1C45-4ADF-A896-30C3F36908FC}.Debug|x64.ActiveCfg = Debug|x64
+		{3921A801-1C45-4ADF-A896-30C3F36908FC}.Debug|x64.Build.0 = Debug|x64
+		{3921A801-1C45-4ADF-A896-30C3F36908FC}.Debug|x86.ActiveCfg = Debug|Win32
+		{3921A801-1C45-4ADF-A896-30C3F36908FC}.Debug|x86.Build.0 = Debug|Win32
+		{3921A801-1C45-4ADF-A896-30C3F36908FC}.Release|x64.ActiveCfg = Release|x64
+		{3921A801-1C45-4ADF-A896-30C3F36908FC}.Release|x64.Build.0 = Release|x64
+		{3921A801-1C45-4ADF-A896-30C3F36908FC}.Release|x86.ActiveCfg = Release|Win32
+		{3921A801-1C45-4ADF-A896-30C3F36908FC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C57F18CC-7EC8-4378-8E6F-5C2BF9432DD7}
+	EndGlobalSection
+EndGlobal
