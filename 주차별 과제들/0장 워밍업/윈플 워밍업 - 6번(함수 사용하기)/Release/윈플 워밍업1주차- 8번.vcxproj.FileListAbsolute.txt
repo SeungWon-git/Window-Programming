@@ -1,0 +1,5 @@
+C:\Users\SEUNGWON\Desktop\윈도우프로그래밍(1)\윈플 워밍업1주차- 8번\Release\윈플 워밍업1주차- 8번.exe
+C:\Users\SEUNGWON\Desktop\윈도우프로그래밍(1)\과제\1주차 과제\윈플 워밍업1주차- 8번\Release\윈플 워밍업1주차- 8번.exe
+C:\Users\SEUNGWON\Desktop\윈도우프로그래밍(1)\과제\1주차 과제\윈플 워밍업1주차- 8번(텍스트로 그림그리기)\Release\윈플 워밍업1주차- 8번.exe
+C:\Users\seung\Desktop\윈도우 프로그래밍(2)\과제\워밍업\윈플 워밍업1주차- 6번(함수 사용하기)\Release\윈플 워밍업1주차- 8번.exe
+C:\Users\seung\Desktop\윈도우 프로그래밍(2)\과제\워밍업\윈플 워밍업 - 6번(함수 사용하기)\Release\윈플 워밍업1주차- 8번.exe
