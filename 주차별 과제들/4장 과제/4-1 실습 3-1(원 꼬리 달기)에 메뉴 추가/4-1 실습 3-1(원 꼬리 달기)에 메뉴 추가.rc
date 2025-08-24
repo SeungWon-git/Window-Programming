@@ -1,0 +1,100 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "게임"
+    BEGIN
+        MENUITEM "시작",                          ID_START
+        MENUITEM "리셋",                          ID_RESET
+        MENUITEM "종료",                          ID_QUIT
+    END
+    POPUP "속도"
+    BEGIN
+        MENUITEM "빠름",                          ID_FAST
+        MENUITEM "보통",                          ID_MEDIUM
+        MENUITEM "느림",                          ID_SLOW
+    END
+    POPUP "색상"
+    BEGIN
+        MENUITEM "하늘색",                         ID_CYAN
+        MENUITEM "보라색",                         ID_PURPLE
+        MENUITEM "노랑색",                         ID_YELLOW
+    END
+    POPUP "원 모양"
+    BEGIN
+        MENUITEM "원",                           ID_CIRCLE
+        MENUITEM "네모",                          ID_RECTANGLE
+    END
+    POPUP "꼬리원 개수"
+    BEGIN
+        MENUITEM "20",                          ID_TAIL_20
+        MENUITEM "25",                          ID_TAIL_25
+        MENUITEM "30",                          ID_TAIL_30
+    END
+END
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
