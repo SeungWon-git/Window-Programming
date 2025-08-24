@@ -1,0 +1,45 @@
+# 빌드 결과물
+*.exe
+*.out
+*.obj
+*.o
+*.a
+*.so
+*.dll
+*.lib
+*.exp
+*.pdb
+
+# 컴파일 캐시 / 중간파일
+*.ilk
+*.idb
+*.ipch
+*.sdf
+*.cache
+*.log
+
+# CMake 빌드 디렉토리
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+build/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.ncb
+*.opendb
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion / JetBrains IDE
+.idea/
+cmake-build-*/
+
+# 기타 OS 파일
+.DS_Store
+Thumbs.db
