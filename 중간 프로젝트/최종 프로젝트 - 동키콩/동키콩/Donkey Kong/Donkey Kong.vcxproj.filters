@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="donkeykong.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Donkey Kong.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="character\mario\climb0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\climb1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\climb2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\climb3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\climb4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\death0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\hammer0_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\hammer1_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\hammer1_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\jump0_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\jump0_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\life.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\walk0_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\walk0_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\walk1_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\walk1_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\walk2_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\walk2_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\death1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\death2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\hammer0_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\death4.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\death3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="background.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\map\ladder_T.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\map\ladder_M.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\map\ladder_B.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\map\platform_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\map\platform_M.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\map\platform_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\map\platform_S.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\barrel1_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\barrel_S.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\barrel1_F.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\barrel2_F.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\barrel2_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\barrel3_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\barrel4_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\mario\immotal.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\bird\bird_V.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\bird\bird1_H.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\bird\bird2_H.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\s_barrel_S.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\s_barrel1_F.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\s_barrel1_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\s_barrel2_F.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\s_barrel2_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\s_barrel3_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\barrel\s_barrel4_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\hammer\equip_hammer.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\hammer\item_hammer.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\hammer\boom0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\hammer\boom1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="object\hammer\boom2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\stand\kong0_S.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\stand\kong1_S.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\stand\kong2_S.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\stand\kong3_S.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\roll\r_kong_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\roll\r_kong_R.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\roll\r_kong_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\heart.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\help.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess0_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess1_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess2_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess3_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess0_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess1_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess2_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\princess3_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\climb\kong1_C.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\climb\kong2_C.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\move\m_kong0.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\move\m_kong1_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\move\m_kong1_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\move\m_kong2_L.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\move\m_kong2_R.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="kong.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\heart1.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\heart2.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\princess\heart3.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\fall\kong1_F.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\fall\kong2_F.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="character\kong\fall\kong3_F.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

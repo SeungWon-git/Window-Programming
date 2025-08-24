@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{81f0239f-96c3-467a-8108-63a631339797}</ProjectGuid>
+    <RootNamespace>DonkeyKong</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\inc;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\FMOD SoundSystem\FMOD Studio API Windows\api\core\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>fmod_vc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CSound.cpp" />
+    <ClCompile Include="donkeykong.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CSound.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Donkey Kong.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="background.bmp" />
+    <Image Include="character\kong\climb\kong1_C.bmp" />
+    <Image Include="character\kong\climb\kong2_C.bmp" />
+    <Image Include="character\kong\fall\kong1_F.bmp" />
+    <Image Include="character\kong\fall\kong2_F.bmp" />
+    <Image Include="character\kong\fall\kong3_F.bmp" />
+    <Image Include="character\kong\move\m_kong0.bmp" />
+    <Image Include="character\kong\move\m_kong1_L.bmp" />
+    <Image Include="character\kong\move\m_kong1_R.bmp" />
+    <Image Include="character\kong\move\m_kong2_L.bmp" />
+    <Image Include="character\kong\move\m_kong2_R.bmp" />
+    <Image Include="character\kong\roll\r_kong_L.bmp" />
+    <Image Include="character\kong\roll\r_kong_R.bmp" />
+    <Image Include="character\kong\roll\r_kong_R.png" />
+    <Image Include="character\kong\stand\kong0_S.bmp" />
+    <Image Include="character\kong\stand\kong1_S.bmp" />
+    <Image Include="character\kong\stand\kong2_S.bmp" />
+    <Image Include="character\kong\stand\kong3_S.bmp" />
+    <Image Include="character\mario\climb0.bmp" />
+    <Image Include="character\mario\climb1.bmp" />
+    <Image Include="character\mario\climb2.bmp" />
+    <Image Include="character\mario\climb3.bmp" />
+    <Image Include="character\mario\climb4.bmp" />
+    <Image Include="character\mario\death0.bmp" />
+    <Image Include="character\mario\death1.bmp" />
+    <Image Include="character\mario\death2.bmp" />
+    <Image Include="character\mario\death3.bmp" />
+    <Image Include="character\mario\death4.bmp" />
+    <Image Include="character\mario\hammer0_L.bmp" />
+    <Image Include="character\mario\hammer0_R.bmp" />
+    <Image Include="character\mario\hammer1_L.bmp" />
+    <Image Include="character\mario\hammer1_R.bmp" />
+    <Image Include="character\mario\immotal.bmp" />
+    <Image Include="character\mario\jump0_L.bmp" />
+    <Image Include="character\mario\jump0_R.bmp" />
+    <Image Include="character\mario\life.bmp" />
+    <Image Include="character\mario\walk0_L.bmp" />
+    <Image Include="character\mario\walk0_R.bmp" />
+    <Image Include="character\mario\walk1_L.bmp" />
+    <Image Include="character\mario\walk1_R.bmp" />
+    <Image Include="character\mario\walk2_L.bmp" />
+    <Image Include="character\mario\walk2_R.bmp" />
+    <Image Include="character\princess\heart.bmp" />
+    <Image Include="character\princess\heart1.bmp" />
+    <Image Include="character\princess\heart2.bmp" />
+    <Image Include="character\princess\heart3.bmp" />
+    <Image Include="character\princess\help.bmp" />
+    <Image Include="character\princess\princess0.bmp" />
+    <Image Include="character\princess\princess0_L.bmp" />
+    <Image Include="character\princess\princess0_R.bmp" />
+    <Image Include="character\princess\princess1.bmp" />
+    <Image Include="character\princess\princess1_L.bmp" />
+    <Image Include="character\princess\princess1_R.bmp" />
+    <Image Include="character\princess\princess2.bmp" />
+    <Image Include="character\princess\princess2_L.bmp" />
+    <Image Include="character\princess\princess2_R.bmp" />
+    <Image Include="character\princess\princess3.bmp" />
+    <Image Include="character\princess\princess3_L.bmp" />
+    <Image Include="character\princess\princess3_R.bmp" />
+    <Image Include="kong.ico" />
+    <Image Include="object\barrel\barrel1_F.bmp" />
+    <Image Include="object\barrel\barrel1_R.bmp" />
+    <Image Include="object\barrel\barrel2_F.bmp" />
+    <Image Include="object\barrel\barrel2_R.bmp" />
+    <Image Include="object\barrel\barrel3_R.bmp" />
+    <Image Include="object\barrel\barrel4_R.bmp" />
+    <Image Include="object\barrel\barrel_S.bmp" />
+    <Image Include="object\barrel\s_barrel1_F.bmp" />
+    <Image Include="object\barrel\s_barrel1_R.bmp" />
+    <Image Include="object\barrel\s_barrel2_F.bmp" />
+    <Image Include="object\barrel\s_barrel2_R.bmp" />
+    <Image Include="object\barrel\s_barrel3_R.bmp" />
+    <Image Include="object\barrel\s_barrel4_R.bmp" />
+    <Image Include="object\barrel\s_barrel_S.bmp" />
+    <Image Include="object\bird\bird1_H.bmp" />
+    <Image Include="object\bird\bird2_H.bmp" />
+    <Image Include="object\bird\bird_V.bmp" />
+    <Image Include="object\hammer\boom0.bmp" />
+    <Image Include="object\hammer\boom1.bmp" />
+    <Image Include="object\hammer\boom2.bmp" />
+    <Image Include="object\hammer\equip_hammer.bmp" />
+    <Image Include="object\hammer\item_hammer.bmp" />
+    <Image Include="object\map\ladder_B.bmp" />
+    <Image Include="object\map\ladder_M.bmp" />
+    <Image Include="object\map\ladder_T.bmp" />
+    <Image Include="object\map\platform_L.bmp" />
+    <Image Include="object\map\platform_M.bmp" />
+    <Image Include="object\map\platform_R.bmp" />
+    <Image Include="object\map\platform_S.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

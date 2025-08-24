@@ -1,0 +1,243 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어(대한민국) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_CLIMB0              BITMAP                  "character\\mario\\climb0.bmp"
+
+IDB_CLIMB1              BITMAP                  "character\\mario\\climb1.bmp"
+
+IDB_CLIMB2              BITMAP                  "character\\mario\\climb2.bmp"
+
+IDB_CLIMB3              BITMAP                  "character\\mario\\climb3.bmp"
+
+IDB_CLIMB4              BITMAP                  "character\\mario\\climb4.bmp"
+
+IDB_DEATH0              BITMAP                  "character\\mario\\death0.bmp"
+
+IDB_HAMMER0_R           BITMAP                  "character\\mario\\hammer0_R.bmp"
+
+IDB_HAMMER1_L           BITMAP                  "character\\mario\\hammer1_L.bmp"
+
+IDB_HAMMER1_R           BITMAP                  "character\\mario\\hammer1_R.bmp"
+
+IDB_JUMP0_L             BITMAP                  "character\\mario\\jump0_L.bmp"
+
+IDB_JUMP0_R             BITMAP                  "character\\mario\\jump0_R.bmp"
+
+IDB_LIFE                BITMAP                  "character\\mario\\life.bmp"
+
+IDB_WALK0_L             BITMAP                  "character\\mario\\walk0_L.bmp"
+
+IDB_WALK0_R             BITMAP                  "character\\mario\\walk0_R.bmp"
+
+IDB_WALK1_L             BITMAP                  "character\\mario\\walk1_L.bmp"
+
+IDB_WALK1_R             BITMAP                  "character\\mario\\walk1_R.bmp"
+
+IDB_WALK2_L             BITMAP                  "character\\mario\\walk2_L.bmp"
+
+IDB_WALK2_R             BITMAP                  "character\\mario\\walk2_R.bmp"
+
+IDB_DEATH1              BITMAP                  "character\\mario\\death1.bmp"
+
+IDB_DEATH4              BITMAP                  "character\\mario\\death4.bmp"
+
+IDB_HAMMER0_L           BITMAP                  "character\\mario\\hammer0_L.bmp"
+
+IDB_DEATH3              BITMAP                  "character\\mario\\death3.bmp"
+
+IDB_DEATH2              BITMAP                  "character\\mario\\death2.bmp"
+
+IDB_BACKGROUND          BITMAP                  "etc\\background.bmp"
+
+IDB_LADDER_T            BITMAP                  "object\\map\\ladder_T.bmp"
+
+IDB_LADDER_M            BITMAP                  "object\\map\\ladder_M.bmp"
+
+IDB_LADDER_B            BITMAP                  "object\\map\\ladder_B.bmp"
+
+IDB_PLATFORM_L          BITMAP                  "object\\map\\platform_L.bmp"
+
+IDB_PLATFORM_M          BITMAP                  "object\\map\\platform_M.bmp"
+
+IDB_PLATFORM_R          BITMAP                  "object\\map\\platform_R.bmp"
+
+IDB_PLATFORM_S          BITMAP                  "object\\map\\platform_S.bmp"
+
+IDB_BARREL1_R           BITMAP                  "object\\barrel\\barrel1_R.bmp"
+
+IDB_BARREL_S            BITMAP                  "object\\barrel\\barrel_S.bmp"
+
+IDB_BARREL1_F           BITMAP                  "object\\barrel\\barrel1_F.bmp"
+
+IDB_BARREL2_F           BITMAP                  "object\\barrel\\barrel2_F.bmp"
+
+IDB_BARREL2_R           BITMAP                  "object\\barrel\\barrel2_R.bmp"
+
+IDB_BARREL3_R           BITMAP                  "object\\barrel\\barrel3_R.bmp"
+
+IDB_BARREL4_R           BITMAP                  "object\\barrel\\barrel4_R.bmp"
+
+IDB_IMMOTAL             BITMAP                  "character\\mario\\immotal.bmp"
+
+IDB_BIRD_H              BITMAP                  "object\\bird\\bird_V.bmp"
+
+IDB_BIRD1_V             BITMAP                  "object\\bird\\bird1_H.bmp"
+
+IDB_BIRD2_V             BITMAP                  "object\\bird\\bird2_H.bmp"
+
+IDB_S_BARREL_S          BITMAP                  "object\\barrel\\s_barrel_S.bmp"
+
+IDB_S_BARREL1_F         BITMAP                  "object\\barrel\\s_barrel1_F.bmp"
+
+IDB_S_BARREL1_R         BITMAP                  "object\\barrel\\s_barrel1_R.bmp"
+
+IDB_S_BARREL2_F         BITMAP                  "object\\barrel\\s_barrel2_F.bmp"
+
+IDB_S_BARREL2_R         BITMAP                  "object\\barrel\\s_barrel2_R.bmp"
+
+IDB_S_BARREL3_R         BITMAP                  "object\\barrel\\s_barrel3_R.bmp"
+
+IDB_S_BARREL4_R         BITMAP                  "object\\barrel\\s_barrel4_R.bmp"
+
+IDB_HAMMER_EQUIP        BITMAP                  "object\\hammer\\equip_hammer.bmp"
+
+IDB_HAMMER_ITEM         BITMAP                  "object\\hammer\\item_hammer.bmp"
+
+IDB_BOOM0               BITMAP                  "object\\hammer\\boom0.bmp"
+
+IDB_BOOM1               BITMAP                  "object\\hammer\\boom1.bmp"
+
+IDB_BOOM2               BITMAP                  "object\\hammer\\boom2.bmp"
+
+IDB_KONG_S0             BITMAP                  "character\\kong\\stand\\kong0_S.bmp"
+
+IDB_KONG_S1             BITMAP                  "character\\kong\\stand\\kong1_S.bmp"
+
+IDB_KONG_S2             BITMAP                  "character\\kong\\stand\\kong2_S.bmp"
+
+IDB_KONG_S3             BITMAP                  "character\\kong\\stand\\kong3_S.bmp"
+
+IDB_KONG_RL             BITMAP                  "character\\kong\\roll\\r_kong_L.bmp"
+
+IDB_KONG_RR             BITMAP                  "character\\kong\\roll\\r_kong_R.bmp"
+
+IDB_HEART               BITMAP                  "character\\princess\\heart.bmp"
+
+IDB_HELP                BITMAP                  "character\\princess\\help.bmp"
+
+IDB_PRINCESS0_R         BITMAP                  "character\\princess\\princess0_R.bmp"
+
+IDB_PRINCESS1_R         BITMAP                  "character\\princess\\princess1_R.bmp"
+
+IDB_PRINCESS2_R         BITMAP                  "character\\princess\\princess2_R.bmp"
+
+IDB_PRINCESS3_R         BITMAP                  "character\\princess\\princess3_R.bmp"
+
+IDB_PRINCESS0_L         BITMAP                  "character\\princess\\princess0_L.bmp"
+
+IDB_PRINCESS1_L         BITMAP                  "character\\princess\\princess1_L.bmp"
+
+IDB_PRINCESS2_L         BITMAP                  "character\\princess\\princess2_L.bmp"
+
+IDB_PRINCESS3_L         BITMAP                  "character\\princess\\princess3_L.bmp"
+
+IDB_KONG_C1             BITMAP                  "character\\kong\\climb\\kong1_C.bmp"
+
+IDB_KONG_C2             BITMAP                  "character\\kong\\climb\\kong2_C.bmp"
+
+IDB_KONG_M0             BITMAP                  "character\\kong\\move\\m_kong0.bmp"
+
+IDB_KONG_ML1            BITMAP                  "character\\kong\\move\\m_kong1_L.bmp"
+
+IDB_KONG_MR1            BITMAP                  "character\\kong\\move\\m_kong1_R.bmp"
+
+IDB_KONG_ML2            BITMAP                  "character\\kong\\move\\m_kong2_L.bmp"
+
+IDB_KONG_MR2            BITMAP                  "character\\kong\\move\\m_kong2_R.bmp"
+
+IDB_HEART1              BITMAP                  "character\\princess\\heart1.bmp"
+
+IDB_HEART2              BITMAP                  "character\\princess\\heart2.bmp"
+
+IDB_HEART3              BITMAP                  "character\\princess\\heart3.bmp"
+
+IDB_KONG_F1             BITMAP                  "character\\kong\\fall\\kong1_F.bmp"
+
+IDB_KONG_F2             BITMAP                  "character\\kong\\fall\\kong2_F.bmp"
+
+IDB_KONG_F3             BITMAP                  "character\\kong\\fall\\kong3_F.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "etc\\kong.ico"
+
+#endif    // 한국어(대한민국) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
