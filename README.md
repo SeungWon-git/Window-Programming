@@ -14,7 +14,7 @@
    + WinAPI
    + C++
  - 시연 영상: [▶️ 유투브 영상 보기](https://www.youtube.com/)
-<img width="700" height="727" alt="image" src="https://github.com/user-attachments/assets/cd3ccedf-d860-4ea3-b62f-f4214c8e241c" />
+<img width="500" height="527" alt="image" src="https://github.com/user-attachments/assets/cd3ccedf-d860-4ea3-b62f-f4214c8e241c" />
 
 
 ---
