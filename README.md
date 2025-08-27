@@ -50,5 +50,5 @@
 
 ## 📎 기타
 - 소스 코드: 👉 [소스 코드](https://github.com/SeungWon-git/Window-Programming/tree/main/%EC%B5%9C%EC%A2%85%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20-%20%EB%8F%99%ED%82%A4%EC%BD%A9/Donkey%20Kong%20-%20%EC%86%8C%EC%8A%A4%EC%BD%94%EB%93%9C)
-- 빌드(배포) 폴더: 🕹️ [빌드 폴더](https://github.com/SeungWon-git/Window-Programming/tree/main/%EC%B5%9C%EC%A2%85%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20-%20%EB%8F%99%ED%82%A4%EC%BD%A9/%EB%8F%99%ED%82%A4%EC%BD%A9%20-%20%EB%B0%B0%ED%8F%AC)
+- 빌드(배포) 링크: 🕹️ [직접 플레이 해보기(다운로드)](https://drive.google.com/drive/folders/1uL9mAiS_OpV_C3KvY0j6gDmPN6cm8AyU?usp=sharing)
 - 조작키 설명: ⌨️ [조작키](https://github.com/SeungWon-git/Window-Programming/blob/main/%EC%B5%9C%EC%A2%85%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20-%20%EB%8F%99%ED%82%A4%EC%BD%A9/%EB%8F%99%ED%82%A4%EC%BD%A9%20-%20%EB%B0%B0%ED%8F%AC/%EC%A1%B0%EC%9E%91%ED%82%A4%20%EC%84%A4%EB%AA%85.txt)
