@@ -11,8 +11,8 @@
    > + **총 5개의 스테이지**(+ 스테이지 별 새로운 장애물들), 망치 아이템
    > + **사운드**(+ 소리 조절 기능-배경음/효과음 개별적으로), 일시정지 기능, 다시시작 기능
  - 개발에 사용된 기술 스택:
-   + WinAPI
-   + C++
+   + WinAPI, C++
+   + fmod 라이브러리
  - 시연 영상: [▶️ 유투브 영상 보기](https://www.youtube.com/)
 <img width="500" height="527" alt="image" src="https://github.com/user-attachments/assets/cd3ccedf-d860-4ea3-b62f-f4214c8e241c" />
 
